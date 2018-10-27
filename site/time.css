@@ -49,7 +49,7 @@ text-decoration: none;
 
 }
 .mainnav a{
-    display: table;
+    display: block;
     width: 25%;
     float: left;
     font-size: 16px;
@@ -60,6 +60,8 @@ text-decoration: none;
     text-decoration: none;
     box-shadow: var(--shadow); 
 }
+
+
 .masthead{
     background: brown;
    text-align: center; 
@@ -85,6 +87,7 @@ text-decoration: none;
     width: 100%;
     z-index: 1;   
 }
+
 .content .story{
     float: left;
     text-decoration: none;
@@ -154,30 +157,15 @@ p.byline span.pub{
 }
 
 
-@media (max-width: 700px) {
-    .container{
-    text-decoration: none; 
-    }
-    .subnav{
-      padding: 14px 16px;
-
-}   
-    .subnav a{
-        font-size: 12px;
-
-    }
-
-    .mainnav a{
-        grid-template-columns: 1fr;
-    }
+@media screen and  (max-width: 700px){
+    
 }
-@media (max-width: 500px) {
-     .content{
-        grid-template-areas:
-        'content. story'
+    
+  
+  @media screen and  (min-width: 500px) {
+  
+  }
 
-    }
- }
 
 
 
